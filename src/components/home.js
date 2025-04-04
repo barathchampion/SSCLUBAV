@@ -1,20 +1,24 @@
 import React from "react";
 import { Container, Button } from "reactstrap";
 import { motion } from "framer-motion";
-import "./homestyle.css"
-// import Header from "./components/header";
-// import Gallery from "./components/gallery";
-// import Facility from "./components/facility";
-// import SummerCamp from "./components/Sumercamp";
-// import Footer from "./components/footer";
+import { Link, useNavigate } from "react-router-dom";
+import "./homestyle.css";
+
 import ParallaxSection from "./parallelsection"; // Include the ParallaxSection
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const redirectgallery = () => {
+    navigate("/gallery");
+  };
+  const redirectfacility = () => {
+    navigate("/facility");
+  };
   return (
     <>
-     
       <Container className="my-5">
-        <section className="mb-5">
+        <section className="mb-3">
           <motion.h2
             className="text-center"
             initial={{ opacity: 0 }}
@@ -30,27 +34,38 @@ const Home = () => {
             transition={{ duration: 1, delay: 0.3 }}
           >
             Join us for volleyball events, summer camps, and more! <br />
-                <div class="outer-cont flex">
-                Ask Spacious AI
-                </div>
+            <div class="outer-cont flex">Ask Spacious AI</div>
           </motion.p>
         </section>
-        
-        <div></div>
         <ParallaxSection />
-        <div class="flexer">
-                <Button>Gallery</Button>
-                <Button>Gallery</Button>
-                <Button>Facility</Button>
-                <Button>SummerCamp</Button>
-        </div>        
-        {/* <Gallery />
-        <Facility />
-        <SummerCamp /> */}
-      </Container>
-     
-    </>
-  )
-}
+        <div className="flexer dirchange">
+          <Button
+            onClick={redirectgallery}
+            className="btn my-3" // Combined btn and my-3
+            size="lg"
+          >
+            Gallery
+          </Button>
 
-export default Home
+          <Button
+            onClick={redirectfacility}
+            className="btn my-3" // Combined btn and my-3
+            size="lg"
+          >
+            Facility
+          </Button>
+
+          <Button className="btn my-3" size="lg">
+            Location
+          </Button>
+
+          <Button className="btn my-3" size="lg">
+            SummerCamp
+          </Button>
+        </div>
+      </Container>
+    </>
+  );
+};
+
+export default Home;

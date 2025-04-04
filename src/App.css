@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -27,8 +25,40 @@
 .App-link {
   color: #61dafb;
 }
-html {
+
+/* App.css or your main CSS file */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   scroll-behavior: smooth;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the container takes the full height of the viewport */
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; /* Pushes the footer to the bottom of the screen */
+}
+
+main {
+  flex: 1; /* This allows the main content to expand and take available space */
+  padding: 20px;
 }
 
 

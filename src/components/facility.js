@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import { motion } from "framer-motion";
-
 import { FaBasketballBall, FaRunning } from "react-icons/fa";
 
 const Facility = () => {
