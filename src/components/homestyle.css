@@ -1,0 +1,8 @@
+.flexer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 55px 10px;
+}
