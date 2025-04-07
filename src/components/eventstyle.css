@@ -1,0 +1,29 @@
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    color: aqua !important;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

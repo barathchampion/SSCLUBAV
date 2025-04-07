@@ -13,7 +13,7 @@ const Footer = () => {
           </Col>
           <Col>
             <h5>Contact Us</h5>
-            <p><FaMapMarkerAlt /> Address: Your Location</p>
+            <p><FaMapMarkerAlt /> Address: SS Volleyball Club, Andivilai,South Thamaraikulam Post,Kanyakumari</p>
             <p><FaPhoneAlt /> Phone: 123-456-789</p>
             <p><FaEnvelope /> Email: contact@ssvolleyball.com</p>
           </Col>

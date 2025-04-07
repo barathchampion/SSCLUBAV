@@ -1,0 +1,120 @@
+.sponsors-prizes-page {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+  }
+  
+  .sponsors-prizes-page h2,
+  .sponsors-prizes-page h3,
+  .sponsors-prizes-page h4 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+  }
+  
+  .sponsors-prizes-page p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .sponsors-prizes-page .btn {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    border-radius: 50px;
+  }
+  
+  .sponsors-prizes-page .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .sponsors-prizes-page .prizes-section {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sponsors-prizes-page .prizes-section ul {
+    font-size: 1.1rem;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .sponsors-prizes-page .prizes-section ul li {
+    padding: 5px 0;
+    color: #333;
+  }
+  /* Style for the Prizes Section */
+.prizes-section {
+    background: #f4f6fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prizes-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .prize-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .prize-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prize-list {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .prize-list li {
+    padding: 8px 0;
+  }
+  
+  .prize-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .prize-card .card-body {
+    padding: 20px;
+  }
+  
+  .prize-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .text-primary {
+    color: #ff6600 !important;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .prizes-row {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sponsors-prizes-page .card {
+      margin-bottom: 15px;
+    }
+  
+    .sponsors-prizes-page .prizes-section ul li {
+      font-size: 1rem;
+    }
+  }
+  

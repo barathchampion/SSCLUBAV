@@ -1,0 +1,51 @@
+/* LocationPage.css */
+.qr-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .qr-container img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  h2.display-4 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  p.lead {
+    font-size: 1.25rem;
+    color: #666;
+  }
+  
+  button.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  button.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 767px) {
+    .qr-container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  

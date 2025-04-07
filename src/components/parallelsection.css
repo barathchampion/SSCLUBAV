@@ -1,0 +1,21 @@
+.parallax-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .parallax-image {
+    background-position: center;
+    background-size: cover;
+    height: 300px;        /* Fixed height for default screen sizes */
+    width: 100%;          /* Responsive width */
+    max-width: 400px;     /* Maximum width set to 400px */
+    border-radius: 10px;  /* Optional: for rounded corners */
+    margin: 0 auto;       /* Center the image horizontally */
+  }
+  
+ 
+  

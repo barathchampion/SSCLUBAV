@@ -46,7 +46,81 @@
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
+  /* Scrolling notification */
+.scrolling-notification {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrolling-notification p {
+  display: inline-block;
+  animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* PDF download button styling */
+.btn-download {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Trending gradient color */
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-download a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-download a:hover {
+  color: #ff7e5f;
+  text-decoration: none;
+}
+.btn-download:hover a {
+  color: #ff7e5f;
+  text-decoration: none;
+}
+
+.btn-download:hover {
+  background: linear-gradient(to right, #feb47b, #ff7e5f); /* Inverted gradient on hover */
+  transform: scale(1.05);
+}
+
+.btn-download:hover .fa-download {
+  margin-right: 10px; /* Move the icon to the right on hover */
+  color: #ff7e5f;
+}
+
+/* Icon styling inside button */
+.fa-download {
+  font-size: 1.5rem;
+  transition: margin-right 0.3s ease-in-out;
+}
+.ltr {
+  letter-spacing: 14px;
+  padding-top: 10px;
   
+}
+
   @media only screen and (max-width: 770px) {
     .dirchange {
         display: flex;
