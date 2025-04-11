@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import volleyballLogo from '../assets/images/volleyball-logo-design-vector.jpg';
+import volleyballLogo from '../assets/images/SIVA.png';
 
 const ParallaxSection = () => (
   <div Style="display:flex; justify-content: center;flex-direction: column;align-items: center;" className="parallax-section">

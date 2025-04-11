@@ -9,7 +9,7 @@ const PlayerDetails = () => {
   const playerDetails = [
     {
       id: 1,
-      name: "John Doe",
+      name: "-",
       role: "Player of the Match",
       description: "John showed outstanding performance, making crucial plays in the final set.",
       image: "john_doe.jpg",
@@ -17,8 +17,24 @@ const PlayerDetails = () => {
     },
     {
       id: 2,
-      name: "Jane Smith",
+      name: "-",
       role: "Best Attacker",
+      description: "Jane was a key player, consistently attacking with precision and power.",
+      image: "jane_smith.jpg",
+      achievements: ["Most kills in the match", "Best offensive player"],
+    },
+    {
+      id: 3,
+      name: "-",
+      role: "Best libro",
+      description: "Jane was a key player, consistently attacking with precision and power.",
+      image: "jane_smith.jpg",
+      achievements: ["Most kills in the match", "Best offensive player"],
+    },
+    {
+      id: 4,
+      name: "-",
+      role: "Best Setter",
       description: "Jane was a key player, consistently attacking with precision and power.",
       image: "jane_smith.jpg",
       achievements: ["Most kills in the match", "Best offensive player"],

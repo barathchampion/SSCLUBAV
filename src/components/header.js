@@ -1,26 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Navbar, NavbarBrand, Nav, NavItem } from "reactstrap";
 import { FaHome, FaImage, FaCalendarAlt } from "react-icons/fa";
 
 const Header = () => {
   return (
     <Navbar color="dark" dark expand="md">
-      <NavbarBrand href="/">SS Volleyball Club</NavbarBrand>
-      <Nav className="ml-auto" navbar>
+      <NavbarBrand href="/">Siva Sakthi Volleyball Club&#127952;</NavbarBrand>
+      <Nav
+        className="ml-auto"
+        style={{ display: "flex", flexDirection: "row" }}
+        navbar
+      >
         <NavItem>
-          <a href="#home" className="text-white mx-3">
-            <FaHome /> Home
-          </a>
+          <Link to="/" className="text-white mx-3">
+            <FaHome style={{ fontSize: "20px" }} /> Home
+          </Link>
         </NavItem>
         <NavItem>
-          <a href="#gallery" className="text-white mx-3">
-            <FaImage /> Gallery
-          </a>
+          <Link to="/gallery" className="text-white mx-3">
+            <FaImage style={{ fontSize: "20px" }} /> Gallery
+          </Link>
         </NavItem>
         <NavItem>
-          <a href="#calendar" className="text-white mx-3">
-            <FaCalendarAlt /> Events
-          </a>
+          <Link to="/events" className="text-white mx-3">
+            <FaCalendarAlt style={{ fontSize: "20px" }} /> Events
+          </Link>
         </NavItem>
       </Nav>
     </Navbar>

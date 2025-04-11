@@ -27,6 +27,9 @@ const Home = () => {
   const redirectSponsers = () => {
     navigate("/sponsers");
   };
+  const redirectclub = () => {
+    navigate("/club");
+  };
 
   const upcomingEvent = {
     name: "State Level Volleyball Tournament 2025",
@@ -71,31 +74,26 @@ const Home = () => {
           >
             Join us for volleyball events, summer camps, and more! <br />
           </motion.p>
+          <div className="d-flex justify-content-center">
+          <Button color="primary" size="lg" onClick={redirectclub} className="my-3 ">
+              Register Now
+          </Button>
+          </div>
         </section>
         <ParallaxSection />
         <div className="flexer dirchange">
-          <Button onClick={redirectgallery} className="btn my-3" size="lg">
-            Gallery
-          </Button>
-
-          {/* <Button
-            onClick={redirectfacility}
-            className="btn my-3" 
-            size="lg"
-          >
-            Facility
-          </Button> */}
-          <Button onClick={redirectevents} className="btn my-3" size="lg">
+        <Button onClick={redirectevents} className="btn my-3" size="lg">
             Events
           </Button>
-
           <Button onClick={redirectlocation} className="btn my-3" size="lg">
             Location
+          </Button>
+          <Button onClick={redirectgallery} className="btn my-3" size="lg">
+            Gallery
           </Button>
           <Button onClick={redirectSponsers} className="btn my-3" size="lg">
             Sponsers & Prize
           </Button>
-
           <Button className="btn my-3" size="lg">
             SummerCamp
           </Button>

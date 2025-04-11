@@ -7,7 +7,7 @@ import Banner2025 from "../assets/images/VbTournament_Andivilai(2025).png"
 // Sample upcoming event
 const upcomingEvent = {
   name: "State Level Volleyball Tournament 2025",
-  date: "2025-04-14T19:00:00", // Event date
+  date: "2025-04-14T18:00:00", // Event date
   location: "SS Volleyball Club, Andivilai,South Thamaraikulam Post,Kanyakumari",
   description: "Join us for the annual Volleyball Championship! A day full of competitive matches and fun.",
   bannerImage: Banner2025, // Add the path to the banner image

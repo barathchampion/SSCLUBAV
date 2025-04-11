@@ -10,9 +10,7 @@ const SponsorsAndPrizes = () => {
     
     const navigate = useNavigate();
 
-    const redirectevents = () => {
-        navigate("/events");
-      };
+  
 
   return (
     <div className="sponsors-prizes-page">
@@ -24,9 +22,7 @@ const SponsorsAndPrizes = () => {
             <p className="lead">
               The most exciting volleyball tournament is here! Join us for a thrilling competition with amazing prizes, powered by our generous sponsors. Get ready to witness some incredible matches and take home the grand prize!
             </p>
-            <Button color="primary" size="lg" onClick={redirectevents} className="my-3">
-              Register Now
-            </Button>
+           
           </Col>
         </Row>
 

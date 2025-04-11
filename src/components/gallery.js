@@ -8,19 +8,35 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      image: "volleyball-logo-design-vector.jpg",
-      tag: "Player of the Match",
-      date: "6 min ago",
-      title: "John Doe",
+      image: "3p0f9grb.png",
+      tag: "2024 Player of the Match",
+      date: "1yr ago",
+      title: "-",
       description: "Player of the match for this game.",
     },
     {
       id: 2,
-      image: "3p0f9grb.png",
-      tag: "Best Attacker",
-      date: "1 hour ago",
-      title: "Jane Smith",
+      image: "atta.png",
+      tag: "2024 Best Attacker",
+      date: "1yr ago",
+      title: "-",
       description: "Best attacker in the last match.",
+    },
+    {
+      id: 3,
+      image: "libro.png",
+      tag: "2024 Best Libro",
+      date: "1yr ago",
+      title: "-",
+      description: "Best Libro in the last match.",
+    },
+    {
+      id: 4,
+      image: "setter.png",
+      tag: "2024 Best Setter",
+      date: "1yr ago",
+      title: "-",
+      description: "Best Setter in the last match.",
     },
     // Add more items as necessary
   ];
@@ -66,7 +82,7 @@ const Gallery = () => {
                 </div>
               </div>
               <div className="info">
-                <span className="title">{item.title}</span>
+                <span className="">{item.title}</span>
                 <p className="description">{item.description}</p>
               </div>
             </Link>
